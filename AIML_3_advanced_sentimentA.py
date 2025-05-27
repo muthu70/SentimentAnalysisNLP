@@ -71,7 +71,7 @@ tagged[:10]
 # In[8]:
 
 
-# Text Vectorization
+# Named entity recognition
 entities = nltk.chunk.ne_chunk(tagged)
 entities.pprint()
 
